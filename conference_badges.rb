@@ -16,9 +16,11 @@ def assign_rooms(attendees)
   counter = 0
   
   attendees.each do |name|
-      room = counter += 1 
+    room = counter += 1 
     room_assignments << "Hello, #{name}! You'll be assigned to room #{room}!"
-   
   end
-  return room_assignments
+   return room_assignments
 end
+
+def printer(attendees)
+  
